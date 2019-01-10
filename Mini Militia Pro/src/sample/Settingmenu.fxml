@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="990.0" prefWidth="1910.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <AnchorPane prefHeight="531.0" prefWidth="670.0" />
+        <ImageView fitHeight="990.0" fitWidth="1910.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Images/Background%20image/Settings%20menu.jpg" />
+            </image>
+        </ImageView>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0">
+            <children>
+                <Button layoutX="422.0" layoutY="199.0" mnemonicParsing="false" prefHeight="104.0" prefWidth="261.0" style="-fx-background-radius: 40; -fx-background-color: linear-gradient( #B82D1F,#E07F2E,#B82D1F  ); -fx-border-color: #6A1205; -fx-border-radius: 40; -fx-border-width: 5;" text="Resolution" textFill="#000000fe">
+                    <font>
+                        <Font name="ItalicT" size="31.0" />
+                    </font>
+                </Button>
+                <Button layoutX="422.0" layoutY="344.0" mnemonicParsing="false" prefHeight="104.0" prefWidth="261.0" style="-fx-background-radius: 40; -fx-background-color: linear-gradient( #B82D1F,#E07F2E,#B82D1F  ); -fx-border-color: #6A1205; -fx-border-radius: 40; -fx-border-width: 5;" text="Avator" textFill="#000000fe">
+                    <font>
+                        <Font name="ItalicT" size="31.0" />
+                    </font>
+                </Button>
+                <Button layoutX="422.0" layoutY="501.0" mnemonicParsing="false" prefHeight="104.0" prefWidth="261.0" style="-fx-background-radius: 40; -fx-background-color: linear-gradient( #B82D1F,#E07F2E,#B82D1F  ); -fx-border-color: #6A1205; -fx-border-radius: 40; -fx-border-width: 5;" text="Sound" textFill="#000000fe">
+                    <font>
+                        <Font name="ItalicT" size="31.0" />
+                    </font>
+                </Button>
+                <Button layoutX="422.0" layoutY="660.0" mnemonicParsing="false" prefHeight="104.0" prefWidth="261.0" style="-fx-background-radius: 40; -fx-background-color: linear-gradient( #B82D1F,#E07F2E,#B82D1F  ); -fx-border-color: #6A1205; -fx-border-radius: 40; -fx-border-width: 5;" text="Control" textFill="#000000fe">
+                    <font>
+                        <Font name="ItalicT" size="31.0" />
+                    </font>
+                </Button>
+            </children>
+        </AnchorPane>
+    </children>
+</StackPane>
